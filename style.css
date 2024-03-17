@@ -1,0 +1,219 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#home {
+  position: relative; /* Make the section a positioned container for absolute positioning */
+  text-align: center; /* Center the content horizontally */
+}
+
+#home img {
+  max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Ensure the image behaves as a block element */
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+#home .hero-content {
+  position: absolute; /* Position the content over the image */
+  top: 50%; /* Position from the top */
+  left: 50%; /* Position from the left */
+  transform: translate(-50%, -50%); /* Center the content vertically and horizontally */
+  color: #fff; /* Set text color */
+}
+
+#home h2 {
+  font-size: 2.5em; /* Set the font size for the heading */
+}
+
+#home p {
+  font-size: 1.2em; /* Set the font size for the paragraph */
+}
+
+.explore-btn {
+  display: inline-block; /* Display the button as an inline block */
+  padding: 10px 20px; /* Add padding */
+  background-color: #4CAF50; /* Set background color */
+  color: #fff; /* Set text color */
+  text-decoration: none; /* Remove underline from link */
+  border-radius: 5px; /* Add border radius */
+  margin-top: 20px; /* Add top margin */
+}
+
+.explore-btn:hover {
+  background-color: #45a049; /* Change background color on hover */
+}
+
+
+
+.explore-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.explore-btn:hover {
+  background-color: #45a049;
+}
+
+
+.hero {
+  background-image: url('hero.jpg');
+  background-size: cover;
+  color: #242627;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.recipes {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.recipe-card {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+}
+
+.recipe-card img {
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.view-recipe-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.view-recipe-btn:hover {
+  background-color: #45a049;
+}
+
+.about {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.team-members, .mission-statement {
+  margin-top: 20px;
+}
+
+.team-members h3, .mission-statement h3 {
+  color: #333;
+}
+
+.team-members ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.team-members ul li {
+  margin-bottom: 5px;
+}
+
+.view-recipe-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.view-recipe-btn:hover {
+  background-color: #45a049;
+}
+
+
+.contact-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form label {
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form textarea {
+  height: 150px;
+}
+
+.contact-form button {
+  background-color: #4c5eaf;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #45a049;
+}
+
+
+
+footer {
+  background-color: #4CAF50;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
